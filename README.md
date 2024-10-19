@@ -100,3 +100,57 @@ git push origin master
 ```
 
 - Paste the link of your lab in Student Portal.
+
+
+
+
+
+
+
+## Desafío
+Utilice la base de datos sakila para realizar las siguientes tareas:
+
+1. Muestre todas las tablas disponibles en la base de datos de Sakila.
+2. Recuperar todos los datos de las tablas `actor`, `película` y `cliente`.
+3. Recupere las siguientes columnas de sus respectivas tablas:
+	- 3.1 Títulos de todas las películas de la tabla "películas".
+	- 3.2 Lista de idiomas utilizados en las películas, con la columna con el alias "idioma" de la tabla "idioma"
+	- 3.3 Lista de nombres de todos los empleados de la tabla "personal"
+
+4. Recuperar años de lanzamiento únicos.
+5. Contar registros para obtener información sobre la base de datos:
+	- 5.1 Determinar el número de tiendas que tiene la empresa.
+	- 5.2 Determinar el número de empleados que tiene la empresa.
+	- 5.3 Determinar cuántas películas hay disponibles para alquiler y cuántas han sido alquiladas.
+	- 5.4 Determinar el número de apellidos distintos de los actores en la base de datos.
+6. Recupera las 10 películas más largas.
+7. Utilice técnicas de filtrado para:
+	- 7.1 Recuperar todos los actores con el nombre "SCARLETT".
+
+	PRIMA: 
+	- 7.2 Recuperar todas las películas que tengan ARMAGEDDON en su título y tengan una duración superior a 100 minutos. 
+	
+		- *Sugerencia: utilice el operador "ME GUSTA". [Más información aquí.](https://www.w3schools.com/sql/sql_like.asp)*
+	- 7.3 Determinar la cantidad de películas que incluyen contenido detrás de escena
+
+## Requisitos
+
+- Bifurca este repositorio
+- Clonarlo en tu máquina
+
+
+## Empezando
+
+Complete los desafíos en este archivo Léame en un archivo `.sql`.
+
+## Envío
+
+- Al finalizar, ejecute los siguientes comandos:
+
+```golpecito
+git agregar.
+git commit -m "Laboratorio resuelto"
+maestro de origen de git push
+```
+
+- Pega el enlace de tu laboratorio en Student Portal.
